@@ -49,6 +49,8 @@ public class MenuListener implements Listener {
 					Bukkit.dispatchCommand(player, cmd.replaceAll("%player%", xGrant.instance.playerStorage.get(player).getName()));
 					xGrant.instance.playerStorage.remove(player);
 					player.closeInventory();
+				} else {
+					event.setCancelled(true);
 				}
 
 			}
