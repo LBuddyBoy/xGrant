@@ -1,0 +1,8 @@
+name: xGrant
+main: xenlan.services.grant.xGrant
+version: 0.1
+author: LBuddyBoy
+
+commands:
+  grant:
+  xgrant:

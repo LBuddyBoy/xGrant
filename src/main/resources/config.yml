@@ -1,0 +1,68 @@
+Sender-Message:
+  - '&fYou have just granted &b%player%&f the &r%rank% Rank'
+Target-Message:
+  - '&b%player%&f has granted you the &r%rank% Rank&f.'
+Inventory:
+  Settings:
+    Title: "&cGrant GUI"
+    Size: 27
+  Auto-Fill:
+    Enabled: true
+    Material: "STAINED_GLASS_PANE"
+    Data: 7
+  Contents:
+    Owner:
+      Material: "WOOL"
+      Data: 14
+      Display: "&4&lOwner"
+      Name: "&4&lGrant Owner"
+      Lore:
+        - ''
+        - '&7Click here to grant this player &4Owner Rank'
+        - ''
+      Slot: 11
+      Command: "pex user %player% group set Owner"
+    Developer:
+      Material: "WOOL"
+      Data: 3
+      Display: "&b&lDeveloper"
+      Name: "&b&lGrant Developer"
+      Lore:
+        - ''
+        - '&7Click here to grant this player &bDeveloper Rank'
+        - ''
+      Slot: 12
+      Command: "pex user %player% group set Developer"
+    Admin:
+      Material: "WOOL"
+      Data: 6
+      Display: "&c&lAdmin"
+      Name: "&c&lGrant Admin"
+      Lore:
+        - ''
+        - '&7Click here to grant this player &cAdmin Rank'
+        - ''
+      Slot: 13
+      Command: "pex user %player% group set Admin"
+    SrMod:
+      Material: "WOOL"
+      Data: 10
+      Display: "&5&lSr.Mod"
+      Name: "&5&lGrant SrMod"
+      Lore:
+        - ''
+        - '&7Click here to grant this player &5Sr.Mod Rank'
+        - ''
+      Slot: 14
+      Command: "pex user %player% group set srmod"
+    TMod:
+      Material: "WOOL"
+      Data: 4
+      Display: "&e&lTrial Mod"
+      Name: "&e&lGrant Trial Mod"
+      Lore:
+        - ''
+        - '&7Click here to grant this player &eTrial Mod Rank'
+        - ''
+      Slot: 15
+      Command: "pex user %player% group set tmod"

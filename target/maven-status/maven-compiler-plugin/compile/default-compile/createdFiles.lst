@@ -1,0 +1,7 @@
+xenlan\services\grant\command\GrantCommand.class
+xenlan\services\grant\util\chatUtil.class
+xenlan\services\grant\listener\MenuListener.class
+xenlan\services\grant\menu\GrantMenu.class
+xenlan\services\grant\command\ReloadCommand.class
+xenlan\services\grant\xGrant.class
+xenlan\services\grant\util\ItemBuilder.class
